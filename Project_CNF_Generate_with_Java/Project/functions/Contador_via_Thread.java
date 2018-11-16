@@ -12,7 +12,7 @@ public class Contador_via_Thread extends Thread{
             TimeForCompilation++;            
             try {
                 Thread.sleep(1000);
-                System.out.println("mSec: "+TimeForCompilation);
+                System.out.println("Sec: "+TimeForCompilation);
             } catch (InterruptedException ex) {
                 Logger.getLogger(Contador_via_Thread.class.getName()).log(Level.SEVERE, null, ex);
             }
